@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ChangeEmailController">
+    <children>
+        <Pane prefHeight="425.0" prefWidth="355.0">
+            <children>
+                <TextField fx:id="oldEmail" layoutX="150.0" layoutY="40.0" />
+                <TextField fx:id="newEmail" layoutX="150.0" layoutY="100.0" />
+                <PasswordField fx:id="password" layoutX="150.0" layoutY="160.0" />
+                <Button fx:id="edit" layoutX="240.0" layoutY="370.0" mnemonicParsing="false" onAction="#editButton" text="E-Mail Ändern" />
+                <Button fx:id="cancel" layoutX="20.0" layoutY="370.0" mnemonicParsing="false" onAction="#cancelButton" text="Abbrechen" />
+                <Label layoutX="20.0" layoutY="40.0" text="Alte E-Mail:" />
+                <Label layoutX="20.0" layoutY="100.0" text="Neue E-Mail:" />
+                <Label layoutX="20.0" layoutY="160.0" text="Passwort:" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

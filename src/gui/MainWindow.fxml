@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainWindowController">
+   <children>
+      <VBox prefHeight="567.0" prefWidth="771.0">
+         <children>
+            <MenuBar prefHeight="30.0" prefWidth="357.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <TabPane fx:id="tpAnwendung" prefHeight="199.0" prefWidth="343.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="tabWebView" text="WebView">
+                  <content>
+                    <AnchorPane prefHeight="372.0" prefWidth="771.0">
+                           <children>
+                              <WebView maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" />
+                              <fx:include source="WebViewWindow.fxml" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                <Tab fx:id="tabDatenbank" text="Datenbank">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="290.0" prefWidth="771.0">
+                           <children>
+                              <VBox fillWidth="false" prefHeight="419.0" prefWidth="676.0" />
+                              <fx:include source="DbWindow.fxml" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
