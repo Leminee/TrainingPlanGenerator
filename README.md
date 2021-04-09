@@ -9,7 +9,8 @@
  
  <h3>logIn</h3> 
  
- <img src="https://github.com/Leminee/TrainingPlanGenerator/blob/master/images/Bildschirmfoto%202021-04-09%20um%2023.27.09.png" height="300" width="400">  
+ <img src="https://github.com/Leminee/TrainingPlanGenerator/blob/master/images/Bildschirmfoto%202021-04-09%20um%2023.27.09.png" height="250" width="350">   
+ 
  
  <h3>Create a training plan</h3> 
  
