@@ -18,7 +18,7 @@
  
  <h6> Confirmation </h6>  
  
-  <img src="https://github.com/Leminee/TrainingPlanGenerator/blob/master/images/Bildschirmfoto%202021-04-09%20um%2023.27.46.png" height="200" width="300"> 
+  <img src="https://github.com/Leminee/TrainingPlanGenerator/blob/master/images/Bildschirmfoto%202021-04-09%20um%2023.27.46.png" height="200" width="400"> 
   
  
 <h3> View training plan </h3> 
