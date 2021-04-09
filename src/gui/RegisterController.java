@@ -84,6 +84,7 @@ public class RegisterController implements Validator {
 				registerNotification.setContentText("Name ist zu kurz oder enthält nicht erlaubte Zeichen");
 				registerNotification.showAndWait();
 			}
+			
 			if (isAccepted) {
 				ConnectionToDB db = new ConnectionToDB();
 				db.initialize();
